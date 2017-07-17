@@ -1,4 +1,3 @@
-# agl-dev
-PHP Explorer Test
+# PHP Explorer component Test Page
 
 Demo: http://aguileraz.github.io/agl-dev/
