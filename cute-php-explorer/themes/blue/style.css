@@ -1,0 +1,87 @@
+/*
+ * The Cute PHP explorer is free software: you can redistribute it
+ * and/or modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * The Cute PHP explorer is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+ * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Lara Maia <dev@lara.click> © 2015
+ * Acidhub <contact@acidhub.click> (ↄ) 2015
+ *
+ */
+
+body {
+    width: 75%;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.current_directory {
+    background-color: #cce0ff;
+    text-align: left;
+    box-shadow: 0 0 1px grey;
+    width: 100%;
+    line-height: 20px;
+}
+.title {
+    color: #0066ff;
+}
+.error {
+    color: #dd0000;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    box-shadow: 0 0 4px black;
+}
+table tr {
+    background-color: #cce0ff;
+}
+table tr.header {
+    background-color: #0066ff;
+}
+table tr.header a {
+    color: white;
+}
+table tr:nth-child(odd+1) {
+    background-color: #cce0ff;
+}
+table tr:nth-child(even) {
+    background-color: #e6f0ff;
+}
+table tr:hover {
+    background-color: darkblue;
+    background-color: rgba(0, 102, 255, 0.5);
+}
+table td {
+    padding: 3px;
+}
+table .icon {
+    width: 20px;
+    text-align: center;
+}
+table .name {
+    width: 100%;
+}
+table .size {
+    text-align: right;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+table .center {
+    text-align: center;
+    color: grey;
+}
+table .mtime {
+    text-align: center;
+    padding-right: 10px;
+    white-space: nowrap;
+}
